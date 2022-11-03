@@ -4,6 +4,7 @@ import React from "react";
 import { useRef } from "react";
 import { MicrophoneIcon, SearchIcon, XIcon } from "@heroicons/react/solid";
 import Avatar from "./Avatar";
+import HeaderOptions from "../components/HeaderOptions";
 
 function Header() {
   const router = useRouter();
@@ -50,10 +51,14 @@ function Header() {
         </form>
 
         <Avatar
-        className="ml-auto"
-            url={'https://yt3.ggpht.com/yti/AJo0G0nutyDsq0zldvPr0jW5_Ve0P6lBLwbRuw1q9UH7Kg=s88-c-k-c0x00ffffff-no-rj-mo'}
+          className="ml-auto"
+          url={
+            "https://yt3.ggpht.com/yti/AJo0G0nutyDsq0zldvPr0jW5_Ve0P6lBLwbRuw1q9UH7Kg=s88-c-k-c0x00ffffff-no-rj-mo"
+          }
         />
       </div>
+      {/* HeaderOptions */}
+      <HeaderOptions />
     </header>
   );
 }
