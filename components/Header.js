@@ -30,6 +30,7 @@ function Header() {
           width={120}
           onClick={() => router.push("/")}
           className="cursor-pointer"
+          alt="Profile Picture"
         />
 
         <form className="flex flex-grow border px-6 py-3 ml-10 mr-5 border-gray-200 rounded-full shadow-lg max-x-3xl items-center">
@@ -55,6 +56,7 @@ function Header() {
           url={
             "https://yt3.ggpht.com/yti/AJo0G0nutyDsq0zldvPr0jW5_Ve0P6lBLwbRuw1q9UH7Kg=s88-c-k-c0x00ffffff-no-rj-mo"
           }
+          alt="Profile Picture"
         />
       </div>
       {/* HeaderOptions */}

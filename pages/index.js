@@ -60,6 +60,7 @@ export default function Home() {
           }
           height={100}
           width={300}
+          alt="Google Logo"
         />
         <div
           className="flex w-full mt-5 hover:shadow-lg
